@@ -20,4 +20,5 @@ def get_date_list(from_date: str, to_date: str) -> list[str]:
             date_list.append(start_date.isoformat())
         return date_list
 
+
 print(get_date_list("2023-06-04", "2023-09-10"))
